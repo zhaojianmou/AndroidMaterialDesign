@@ -40,4 +40,18 @@ dependencies {
     compile 'com.jakewharton:butterknife:8.6.0'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.6.0'
 
+    /* ------------------------------------------------------------------------------------------------------ */
+    //MaterialDesign
+//    compile 'com.github.navasmdc:MaterialDesign:1.5@aar'
+    //android-ui
+    compile 'com.github.markushi:android-ui:1.2'
+    //material-menu
+//    compile 'com.balysv.materialmenu:material-menu:2.0.0'
+    //materialdrawer
+//    compile('com.mikepenz:materialdrawer:5.9.3@aar') {
+//        transitive = true
+//    }
+    /* ------------------------------------------------------------------------------------------------------ */
+
+
 }

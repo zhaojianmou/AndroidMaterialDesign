@@ -7,12 +7,13 @@ import android.widget.ListView;
 
 import com.jack.androidmaterialdesign.R;
 import com.jack.androidmaterialdesign.base.BaseActivity;
+import com.jack.androidmaterialdesign.ui.UIManager;
 
 import butterknife.BindView;
 
 public class MainActivity extends BaseActivity {
 
-//    @BindView(R.id.toolBar1)
+    //    @BindView(R.id.toolBar1)
 //    public Toolbar toolbar;
     @BindView(R.id.listView)
     public ListView listView;
@@ -37,6 +38,8 @@ public class MainActivity extends BaseActivity {
         }
 
         listView.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, str));
+
+        UIManager.mainToAndroidUi(this);
 
 
     }
