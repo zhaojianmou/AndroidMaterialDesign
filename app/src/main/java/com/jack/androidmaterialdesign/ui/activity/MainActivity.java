@@ -39,7 +39,7 @@ public class MainActivity extends BaseActivity {
 
         listView.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, str));
 
-        UIManager.mainToAndroidUi(this);
+        UIManager.mainToMaterialDrawer(this);
 
 
     }

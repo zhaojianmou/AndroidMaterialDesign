@@ -2,8 +2,8 @@ apply plugin: 'com.android.application'
 apply plugin: 'com.jakewharton.butterknife'
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion "25.0.3"
+    compileSdkVersion 26
+    buildToolsVersion "26.0.0"
     defaultConfig {
         applicationId "com.jack.androidmaterialdesign"
         minSdkVersion 15
@@ -30,12 +30,12 @@ dependencies {
     })
     testCompile 'junit:junit:4.12'
     //support
-    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support:appcompat-v7:26.0.0-alpha1'
     compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha8'
-    compile 'com.android.support:cardview-v7:25.3.1'
-    compile 'com.android.support:recyclerview-v7:25.3.1'
-    compile 'com.android.support:design:25.3.1'
-    compile 'com.android.support:palette-v7:25.3.1'
+    compile 'com.android.support:cardview-v7:26.0.0-alpha1'
+    compile 'com.android.support:recyclerview-v7:26.0.0-alpha1'
+    compile 'com.android.support:design:26.0.0-alpha1'
+    compile 'com.android.support:palette-v7:26.0.0-alpha1'
     //butterknife
     compile 'com.jakewharton:butterknife:8.6.0'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.6.0'
@@ -45,12 +45,12 @@ dependencies {
 //    compile 'com.github.navasmdc:MaterialDesign:1.5@aar'
     //android-ui
     compile 'com.github.markushi:android-ui:1.2'
-    //material-menu
+    //material-menu 废弃
 //    compile 'com.balysv.materialmenu:material-menu:2.0.0'
     //materialdrawer
-//    compile('com.mikepenz:materialdrawer:5.9.3@aar') {
-//        transitive = true
-//    }
+    compile('com.mikepenz:materialdrawer:5.9.3@aar') {
+        transitive = true
+    }
     /* ------------------------------------------------------------------------------------------------------ */
 
 
